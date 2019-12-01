@@ -377,7 +377,9 @@ for i in range(int(N_POPULATION / (N_BEST + N_CHILDREN))):
         genomes.append(new_genome)
         
   ~~~
-
+![333](https://user-images.githubusercontent.com/54670559/69915971-73497580-1498-11ea-81ce-37b7402647b3.png)  
+![444](https://user-images.githubusercontent.com/54670559/69915972-780e2980-1498-11ea-8156-9f0648242938.png)  
+  
 ## 한계
 1. 뱀이 먹이를 향한 의지와 살아남기 위한 의지가 충돌하면서 뱀이 길어졌을 때 몸통에 충돌하게 됨
 2. 시간이 지날수록 학습시간이 오래걸림
