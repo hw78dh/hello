@@ -27,7 +27,7 @@ Neural Network와 Genetic algorithm을 이용한 뱀게임을 하는 인공지�
 1. 뱀게임에 대한 강화 학습을 오래 시킬수록 더 높은 점수를 획득하는 모델이 나온다.
 2. 인공지능이 발전하는 과정을 볼 수 있다.  
 
-'''
+'''c
 import pygame
 import os, random
 import numpy as np 
