@@ -28,7 +28,7 @@ Genetic algorithm을 이용한 뱀게임을 하는 인공지능 프로그램
 
 ## 실행코드
 ### Snake
-~~~
+~~~~python
 import pygame
 import os, random
 import numpy as np 
@@ -248,13 +248,13 @@ if __name__ == '__main__':
         fitness, score = snake.run()
         
         print('Fitness: %s, Score: %s' % (fitness, score)) 
-~~~  
+~~~~
   
 ### Genome
   
 ![222](https://user-images.githubusercontent.com/54670559/69915836-c8848780-1496-11ea-880e-1256b7c3358f.png)
 
-~~~
+~~~python
 import numpy as np
 
 class Genome():
@@ -290,7 +290,7 @@ class Genome():
 
 
 ### Evolution
-~~~
+~~~python
 import pygame, random 
 import numpy as np 
 from copy import deepcopy 
