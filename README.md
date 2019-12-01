@@ -80,7 +80,7 @@ class Snake():
             if list([x, y]) not in self.snake.tolist():
                 break
             self.fruit = np.array([x, y])
-
+    #move snake
     def step(self, direction):
         old_head = self.snake[0]
         movement = DIRECTIONS[direction]
@@ -107,7 +107,7 @@ class Snake():
         
         self.snake = np.concatenate([[new_head], self.snake], axis=0)
         return True
-
+    #make sensor
     def get_inputs(self):
         head = self.snake[0]
         result = [1., 1., 1., 0., 0., 0.]
@@ -149,7 +149,7 @@ class Snake():
             result[5] = 1
             
         return np.array(result)
-    
+    #make pygame
     def run(self):
         self.fitness = 0
         
