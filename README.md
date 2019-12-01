@@ -28,8 +28,7 @@ Neural Network와 Genetic algorithm을 이용한 뱀게임을 하는 인공지�
 2. 인공지능이 발전하는 과정을 볼 수 있다.
 
 
-
-
+1. 
 import pygame
 import os, random
 import numpy as np 
