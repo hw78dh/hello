@@ -251,6 +251,9 @@ if __name__ == '__main__':
 ~~~  
   
 ### Genome
+  
+![222](https://user-images.githubusercontent.com/54670559/69915836-c8848780-1496-11ea-880e-1256b7c3358f.png)
+
 ~~~
 import numpy as np
 
