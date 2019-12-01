@@ -380,6 +380,13 @@ for i in range(int(N_POPULATION / (N_BEST + N_CHILDREN))):
 ![333](https://user-images.githubusercontent.com/54670559/69915971-73497580-1498-11ea-81ce-37b7402647b3.png)  
 ![444](https://user-images.githubusercontent.com/54670559/69915972-780e2980-1498-11ea-8156-9f0648242938.png)  
   
+  
+## 파일 실행시키는 법
+1. Github에서 snake, genome, evolution 소스코드를 다운받는다.
+git clone https://github.com/hw78dh/hello.git
+2. cmd를 실행시킨다.
+3. 파일을 저장한 디렉토리로 이동하여 python evolution.py를 실행시킨다.  
+  
 ## 한계
 1. 뱀이 먹이를 향한 의지와 살아남기 위한 의지가 충돌하면서 뱀이 길어졌을 때 몸통에 충돌하게 됨
 2. 시간이 지날수록 학습시간이 오래걸림
