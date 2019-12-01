@@ -1,21 +1,18 @@
 # 뱀 게임을 하는 인공지능 만들기 
-Neural Network와 Genetic algorithm을 이용한 뱀게임을 하는 인공지능 프로그램  
+Genetic algorithm을 이용한 뱀게임을 하는 인공지능 프로그램  
 
 ![111](https://user-images.githubusercontent.com/54670559/69914917-c6b5c680-148c-11ea-84b1-f19a21dee061.png)  
 21600614 장현우,  21600265 박성환 , 모두를 위한 인공지능 활용, HGU  
 
-## 프로젝트 소개
-Neural Network와 Genetic algorithm을 이용한 뱀게임을 하는 인공지능 프로그램입니다.
- 
+
 ## 프로젝트를 하게 된 계기
 파이썬에 pygame이라는 게임 개발 도구가 있다는 것을 보고, 뱀게임을 만들어 보았습니다. 뱀게임을 사람이 하는 것이 아니라, 인공지능이 스스로 학습하고 훈련하면 어떤 결과가 나올지 궁금해서 프로젝트를 시작하게 되었습니다.
 
 ## 다루게 될 기술
 1. pygame
 2. nympy
-3. Neural Network
-4. Genetic algorithm
-5. os
+3. Genetic algorithm
+4. os, random
  
 ## 프로젝트 개요
 1. 인공지능에 앞쪽, 왼쪽, 오른쪽 방향을 가르친다.
@@ -29,7 +26,7 @@ Neural Network와 Genetic algorithm을 이용한 뱀게임을 하는 인공지�
 
 
 ## 실행코드
-### 
+### Snake
 ~~~
 import pygame
 import os, random
