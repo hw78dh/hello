@@ -149,7 +149,7 @@ class Snake():
             result[5] = 1
             
         return np.array(result)
-    #make pygame
+    #start pygame
     def run(self):
         self.fitness = 0
         
