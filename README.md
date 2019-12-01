@@ -29,6 +29,7 @@ Neural Network와 Genetic algorithm을 이용한 뱀게임을 하는 인공지�
 
 
 ## 실행코드
+### 
 ~~~
 import pygame
 import os, random
@@ -251,7 +252,7 @@ if __name__ == '__main__':
         print('Fitness: %s, Score: %s' % (fitness, score)) 
 ~~~  
   
-ㄴㅇㄹㄴㅇ
+### Genome
 ~~~
 import numpy as np
 
@@ -287,7 +288,7 @@ class Genome():
 ~~~  
 
 
-며ㅗㄴㄴ
+### Evolution
 ~~~
 import pygame, random 
 import numpy as np 
