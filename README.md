@@ -247,9 +247,11 @@ if __name__ == '__main__':
         fitness, score = snake.run()
         
         print('Fitness: %s, Score: %s' % (fitness, score)) 
+~~~  
   
 ㄴㅇㄹㄴㅇ
-~~~import numpy as np
+~~~
+import numpy as np
 
 class Genome():
     def __init__(self):
@@ -280,6 +282,7 @@ class Genome():
 
     def leaky_relu(self, x):
         return np.where(x > 0, x, x * 0.01) 
+~~~  
 
 
 며ㅗㄴㄴ
