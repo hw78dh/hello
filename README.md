@@ -26,7 +26,7 @@ Genetic algorithm을 이용한 뱀게임을 하는 인공지능 프로그램
 4. 진화 알고리즘(crossover, mutation)을 바탕으로 인공지능을 강화학습 시킨다.
 
 ### 동영상 링크
-  
+동영상 링크 :<https://www.youtube.com/watch?v=EgYLjnemlok>
  
 ## 기대효과
 1. 뱀게임에 대한 강화 학습을 오래 시킬수록 더 높은 점수를 획득하는 모델이 나온다.
